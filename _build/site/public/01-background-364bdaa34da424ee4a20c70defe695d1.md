@@ -66,13 +66,13 @@ Atoms also provided big challenges for classical physics, from two completely di
   \end{equation}
 for integers $m$ and $n$, and where $R_H$ is a constant known as Rydberg's constant. 
 
-````{figure} ./Pictures/Emission_spectrum-H.svg
+:::{figure} ./Pictures/Emission_spectrum-H.svg
 :name: spectrum
 :alt:
 :align: center
 
 **Spectral lines.** Example diagram of the emission spectrum of Hydrogen (showing only lines in the visible part of the spectrum).
-````
+:::
 
 In order to explain the existence of spectral lines from the perspective of classical physics, the small number of allowed frequencies of the emitted light must arise from some characteristic vibrations within the atom. But what could these characteristic vibrations be? Moreover, where does the intricate relation between the allowed wavelengths come from? Classical physics seems to provide no satisfactory answer to these questions, and therefore the existence of spectral lines was a mystery. 
 
@@ -83,12 +83,12 @@ Classical electromagnetism says however that **accelerating charges emit radiati
 
 ### Quantisation of angular momentum and the Bohr atom
 Bohr was able to provide partial answers to both of these problems by postulating that **angular momentum of the electron is quantised**. In particular, Bohr postulated that much like the energy of a photon is quantised, so too is the angular momentum $L$ of an electron in orbit around a nucleus. Bohr postulated that an elementary **quanta** of orbital angular momentum is the **Reduced Plank constant**
-````{card}
+:::{card}
 ```{math}
 :label: e-hbar
 \hbar = \frac{h}{2\pi} = 1.05 \times 10^{-34} Js
 ```
-````
+:::
 This constant is commonly referred to simply as ''**h-bar**''. Bohr postulated that the angular momentum of electrons is only ever an integer multiple of $\hbar$, and no other value, $L = n\hbar$.
 
 Under this assumption, Bohr was able to give a **stable** model for an atom. In particular, electrons do not radiate continuously as classical electromagnetism predicts, but lose angular momentum and energy in finite, quantised amounts, by emitting photons. This radiation continues until the electron has reached the minimum angular momentum of $\hbar$, after which it no longer radiates, and orbits the nucleus in a stable fashion. Bohr found that the radii and energies of the allowed orbits are
@@ -116,17 +116,16 @@ The spectral lines are also explained by this model. When an electron `jumps' fr
 The constant out the front exactly matches the experimentally observed Rydberg constant, and thus reproduced the spectral lines of Hydrogen. In fact, this prediction of the Bohr model led to the search, and subsequent discovery of new lines outside the visible part of the electromagnetic spectrum, which had previously not been observed.
 
 ## Matter waves
-Einstein postulated that electromagnetic radiation was in fact comprised of 'packets' which he called photons, which can roughly be thought of as particles. De Broglie postulated that **matter might conversely behave like a wave**. When electromagnetic radiation has energy $E$, its momentum is $p = E/c$. Using the Einstein formula for the energy of the photon, $E = hf = hc/\lambda$, we see that 
+Einstein postulated that electromagnetic radiation was in fact comprised of 'packets' which he called photons, which can roughly be thought of as particles. De Broglie postulated that \alert{matter might conversely behave like a wave}. When electromagnetic radiation has energy $E$, its momentum is $p = E/c$. Using the Einstein formula for the energy of the photon, $E = hf = hc/\lambda$, we see that 
 \begin{equation}
 	p = \frac{E}{c} = \frac{hc}{\lambda c} = \frac{h}{\lambda}.
 \end{equation} 
-De Broglie postulated that this formula **holds universally** for both radiation and matter, and prescribed that if a particle has momentum $p$ then it will behave like a wave of wavelength
-````{card}
-```{math}
-:label: e-de-Broglie
+De Broglie postulated that this formula \alert{holds universally} for both radiation and matter, and prescribed that if a particle has momentum $p$ then it will behave like a wave of wavelength
+:::{card}
+\begin{equation}\label{e:de Broglie}
 p = \frac{h}{\lambda}
-```
-````
+\end{equation}
+:::
 At first sight this seems strange, but it can be readily seen that the wavelengths for ''everyday'' objects are so small that they would be imperceptible. However, for elementary particles, in conditions which could be formed in the laboratory at that time, in principle this wavelength should have been observable. Two-slit experiments were subsequently carried out, and interference effects, at the wavelength predicted by de Broglie, were observed, indicating that indeed matter can exhibit wave-like properties too. 
 
 However, this raised a huge number of questions. Were particles really waves? How does this fit with the conclusion of the photoelectric effect, that waves are in fact particles? There were numerous other phenomena that couldn't be explained -- subtle aspects of black-body radiation, the way x-rays scatter off solids, the so-called Compton effect. Everything pointed towards the need for a radical re-thinking of the physical world. Quantum mechanics was invented to answer these questions, and in the next section we will start of exploration of the basic aspects of this new theory. 

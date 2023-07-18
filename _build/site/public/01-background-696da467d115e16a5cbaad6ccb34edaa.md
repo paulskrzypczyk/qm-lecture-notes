@@ -120,7 +120,7 @@ Einstein postulated that electromagnetic radiation was in fact comprised of 'pac
 \begin{equation}
 	p = \frac{E}{c} = \frac{hc}{\lambda c} = \frac{h}{\lambda}.
 \end{equation} 
-De Broglie postulated that this formula **holds universally** for both radiation and matter, and prescribed that if a particle has momentum $p$ then it will behave like a wave of wavelength
+De Broglie postulated that this formula \alert{holds universally} for both radiation and matter, and prescribed that if a particle has momentum $p$ then it will behave like a wave of wavelength
 ````{card}
 ```{math}
 :label: e-de-Broglie

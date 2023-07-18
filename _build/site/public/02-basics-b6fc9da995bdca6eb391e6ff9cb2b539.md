@@ -42,10 +42,9 @@ An alternative choice would be to specify the position $x(t_0) = x_0$ and the ve
 In general, we have a lot of **freedom** in specifying the state of the particle — we can consider a particle at an arbitrary position $x_0$ with an arbitrary momentum $p_0$. Of course, if the particle is meant to be confined to some region of space, then we must specify the particle to be in that region, and to avoid having to use special relativity, we should only consider momentum small enough so that the particle is not moving close to the speed of light. Apart from these reasonable requirements, we are otherwise free to specify the state of the particle arbitrarily.
 
 The basic problem of classical mechanics is to determine the state of the particle at all times, given knowledge of the state at one instant of time, $t_0$. That is, the goal is to solve the **equation of motion**, given the initial conditions, which specify the state of the system. The equation of motion is Newton's second law, which states that
-```{math}
-:label: e-classical-EoM
+\begin{equation}\label{e:classical EoM}
 \frac{dp}{dt} = F(x),\quad \frac{dx}{dt}  = \frac{p(t)}{M}.
-```
+\end{equation}
 
 Solving the equation of motion, subject to the initial conditions $x(t_0) = x_0$, $p(t_0) = p_0$, provides us with solutions $x(t)$ and $p(t)$ which then completely specify the state **at all times $t$**. 
 
@@ -273,12 +272,11 @@ In the previous subsection we also introduced the terminology of superposition f
 (s-cons-of-norm)=
 ### Conservation of normalisation 
 A second important physical property of the Schrödinger equation is that **the wavefunction remains normalised in time}. That is, if $\Psi(x,t_0)$ is normalised at $t_0$, then after solving the Schrödinger equation for $\Psi(x,t)$, we also find that $\Psi(x,t)$ is normalised, for all time,
-````{card}
-```{math}
-:label: e-norm-t
+```{card}
+\begin{equation}\label{e:norm t}
 	\infint |\Psi(x,t)|^2  dx = 1 \quad \text{ for all }t.
+\end{equation}
 ```
-````
 	
 As such, the probability to find the particle _somewhere_ is always one.
 

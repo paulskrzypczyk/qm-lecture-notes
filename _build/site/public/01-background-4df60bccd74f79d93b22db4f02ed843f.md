@@ -116,17 +116,16 @@ The spectral lines are also explained by this model. When an electron `jumps' fr
 The constant out the front exactly matches the experimentally observed Rydberg constant, and thus reproduced the spectral lines of Hydrogen. In fact, this prediction of the Bohr model led to the search, and subsequent discovery of new lines outside the visible part of the electromagnetic spectrum, which had previously not been observed.
 
 ## Matter waves
-Einstein postulated that electromagnetic radiation was in fact comprised of 'packets' which he called photons, which can roughly be thought of as particles. De Broglie postulated that **matter might conversely behave like a wave**. When electromagnetic radiation has energy $E$, its momentum is $p = E/c$. Using the Einstein formula for the energy of the photon, $E = hf = hc/\lambda$, we see that 
+Einstein postulated that electromagnetic radiation was in fact comprised of 'packets' which he called photons, which can roughly be thought of as particles. De Broglie postulated that \alert{matter might conversely behave like a wave}. When electromagnetic radiation has energy $E$, its momentum is $p = E/c$. Using the Einstein formula for the energy of the photon, $E = hf = hc/\lambda$, we see that 
 \begin{equation}
 	p = \frac{E}{c} = \frac{hc}{\lambda c} = \frac{h}{\lambda}.
 \end{equation} 
-De Broglie postulated that this formula **holds universally** for both radiation and matter, and prescribed that if a particle has momentum $p$ then it will behave like a wave of wavelength
-````{card}
-```{math}
-:label: e-de-Broglie
+De Broglie postulated that this formula \alert{holds universally} for both radiation and matter, and prescribed that if a particle has momentum $p$ then it will behave like a wave of wavelength
+:::{card}
+\begin{equation}\label{e:de Broglie}
 p = \frac{h}{\lambda}
-```
-````
+\end{equation}
+:::
 At first sight this seems strange, but it can be readily seen that the wavelengths for ''everyday'' objects are so small that they would be imperceptible. However, for elementary particles, in conditions which could be formed in the laboratory at that time, in principle this wavelength should have been observable. Two-slit experiments were subsequently carried out, and interference effects, at the wavelength predicted by de Broglie, were observed, indicating that indeed matter can exhibit wave-like properties too. 
 
 However, this raised a huge number of questions. Were particles really waves? How does this fit with the conclusion of the photoelectric effect, that waves are in fact particles? There were numerous other phenomena that couldn't be explained -- subtle aspects of black-body radiation, the way x-rays scatter off solids, the so-called Compton effect. Everything pointed towards the need for a radical re-thinking of the physical world. Quantum mechanics was invented to answer these questions, and in the next section we will start of exploration of the basic aspects of this new theory. 
