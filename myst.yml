@@ -20,6 +20,6 @@ site:
   # logo:
   nav: []
   actions:
-    - title: 
-      url: 
+    - title: Learn More
+      url: https://mystmd.org/guide
   domains: []
