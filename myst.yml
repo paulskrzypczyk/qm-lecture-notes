@@ -14,10 +14,10 @@ project:
   math:
     '\infint': '\int_{-\infty}^{\infty}'
   numbering:
-    heading_1: true
-    heading_2: true
-    heading_3: true
-    heading_4: true
+    heading_1: false
+    heading_2: false
+    heading_3: false
+    heading_4: false
 
 site:
   template: book-theme
