@@ -1,18 +1,25 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # title:
+  # title: Quantum Mechanics I
   # description:
   keywords: []
-  authors: []
-  github: https://github.com/paulskrzypczyk/qm-lecture-notes
+  authors: Paul Skrzypczyk
+  # github:
   # bibliography: []
+  math:
+    '\infint': '\int_{-\infty}^{\infty}'
+  numbering:
+    heading_1: true
+    heading_2: true
+    heading_3: true
+
 site:
   template: book-theme
-  # title:
+  # title: Quantum Mechanics I
   # logo:
   nav: []
   actions:
-    - title: Learn More
-      url: https://mystmd.org/guide
+    - title: 
+      url: 
   domains: []
