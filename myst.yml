@@ -4,7 +4,11 @@ project:
   title: Quantum Mechanics I
   description: Lecture Notes
   keywords: []
-  authors: Paul Skrzypczyk
+  authors:
+  - name: Paul Skrzypczyk
+    affiliations:
+      - School of Physics, University of Bristol
+  license: CC-BY-4.0
   # github:
   # bibliography: []
   math:
@@ -13,6 +17,7 @@ project:
     heading_1: true
     heading_2: true
     heading_3: true
+    heading_4: true
 
 site:
   template: book-theme

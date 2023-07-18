@@ -1,0 +1,9 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is '01-history.blg'
+[107] biber-MSWIN32:340> INFO - === 
+[134] Biber.pm:418> INFO - Reading '01-history.bcf'
+[210] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[219] bbl.pm:654> INFO - Writing '01-history.bbl' with encoding 'UTF-8'
+[219] bbl.pm:757> INFO - Output to 01-history.bbl
+[220] Biber.pm:130> WARN - The file '01-history.bcf' does not contain any citations!
+[220] Biber.pm:132> INFO - WARNINGS: 1

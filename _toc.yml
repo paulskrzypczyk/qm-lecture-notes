@@ -1,0 +1,6 @@
+format: jb-book
+root: index
+chapters:
+  - file: 01-background
+  - file: 02-basics
+  - file: 03-sep-TISE

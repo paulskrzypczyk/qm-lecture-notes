@@ -1,0 +1,9 @@
+---
+subject: Quantum Mechanics I Lecture Notes
+subtitle:
+short_title: Index
+---
+
+## Quantum Mechanics I
+
+[](#s-photoelec)
