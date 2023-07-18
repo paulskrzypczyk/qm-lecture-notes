@@ -1,8 +1,8 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # title: Quantum Mechanics I
-  # description:
+  title: Quantum Mechanics I
+  description: Lecture Notes
   keywords: []
   authors: Paul Skrzypczyk
   # github:
@@ -16,10 +16,7 @@ project:
 
 site:
   template: book-theme
-  # title: Quantum Mechanics I
+  title: Quantum Mechanics I
   # logo:
   nav: []
-  actions:
-    - title: Learn More
-      url: https://mystmd.org/guide
   domains: []
