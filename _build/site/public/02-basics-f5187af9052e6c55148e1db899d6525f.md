@@ -324,11 +324,11 @@ In the derivation below (which you are encouraged to work through yourself, but 
 ```
 ````
 where
-````{card}
+```{card}
 ```{math}
 j(x,t) = \frac{i\hbar}{2M}\left(\frac{\partial \Psi^*}{\partial x}\Psi(x,t) -\Psi^*(x,t)\frac{\partial \Psi}{\partial x}\right),
 ```
-````
+```
 You have encountered equations of the form [](#e-continuity-eq) before, for example in Electromagnetism. It is in the form of a **continuity equation**. It says that the rate of change of probability at a location $x$ at time $t$ is equal to the net **probability current** flowing into that point. That is, **$j(x,t)$ can be seen as the probability _current_ associated to the wavefunction $\Psi(x,t)$**. In quantum mechanics, it thus appears that probability is much like other physical 'substances', such as water, or electrical charge: probabilities **flow** in and out of regions. The continuity equation captures the idea of a **local conservation**: Changes in the probability density at $x$ are completely determined by the probability current that is flowing in to or out of it. 
 
 
