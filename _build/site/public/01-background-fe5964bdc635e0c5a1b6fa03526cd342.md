@@ -2,7 +2,7 @@
 title: History and Background 
 short_title: History & Background
 numbering:
-  enumerator: 1.%s
+	enumerator: 1.%s
 ---
 
 
@@ -47,8 +47,7 @@ There are some particularly surprising aspects about what is observed:
 * Low frequency/long wavelength light, for example red light, for certain metals is **unable** to generate any current, no matter how intense the light, while very weak light of higher frequency/shorter wavelength, for example violet light, is able to generate a weak current.
 
 All of these aspects of the photoelectric effect seem impossible to explain within classical physics. In classical physics, the energy density of the light is proportional to the amplitude squared, and does not depend upon the wavelength. Moreover, the energy arrives at a constant rate, and so if the light is very weak, it should take a long time before enough energy is supplied in order to account for the kinetic energy of the emitted electron, so there should be a long delay before the current begins to flow. Finally, why it should be that long wavelength light is simply unable to free any electrons was a mystery.
-
-#### The photon
+\subsection{The photon}
 Einstein was able to provide an explanation for the photoelectric effect by postulating that classical electromagnetism does not in fact completely describe the properties of light. He said that we need to assume moreover that light is **quantized** in small `packets' known as **photons**. Einstein postulated that a photon of wavelength $\lambda$ and frequency $f$ has energy 
 ````{card}
 ```{math}

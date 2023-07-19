@@ -229,7 +229,7 @@ The probability density to find the particle at position $x$ is
 which is a **normal distribution** (see figure below) with mean and standard deviation
 ```{math}
 	\langle x \rangle &= 0, \\
-\Delta x&= \sqrt{\langle x^2\rangle - \langle x \rangle^2} = a.
+\Delta x&=~\sqrt{\langle x^2\rangle - \langle x \rangle^2}~=~a.
 ``` 
 The particle is therefore localised close to the origin, and the smaller $a$ is, the smaller the standard deviation is, and hence the particle is more tightly localised. 
 	

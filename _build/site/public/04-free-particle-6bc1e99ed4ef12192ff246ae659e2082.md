@@ -69,7 +69,7 @@ By substituting the  wavefunction [](#e-sep-form) into the Schrödinger equation
 ```
 It might appear that we are thus done, as we have managed to solve the Schrödinger equation, and thus have found how a free particle evolves in time. There are however a number of obstacles that we still need to overcome. 
 
-First, as discussed in [](#s-freedom), we can specify an **arbitrary** initial state of the particle, i.e. an arbitrary wavefunction $\Psi(x,t_0)$ at $t = t_0$. For stationary states of the form [](#e-free-sep), at $t = t_0$, we only have two complex numbers $A'$ and $B'$ to specify, and hence this definitely does not amount to an arbitrary wavefunction. We therefore seem to have much less generality than we need. 
+First, as discussed in [](#s-freedom), we can specify an **arbitrary** initial state of the particle, i.e.~an arbitrary wavefunction $\Psi(x,t_0)$ at $t = t_0$. For stationary states of the form [](#e-free-sep), at $t = t_0$, we only have two complex numbers $A'$ and $B'$ to specify, and hence this definitely does not amount to an arbitrary wavefunction. We therefore seem to have much less generality than we need. 
 
 More worryingly, as we will see next, the solutions found don't appear to be permissible at all, due to their normalisation. We will see below that both of these problems can be overcome, by using the **superposition principle** from [](#s-superposition). 
 
@@ -97,7 +97,7 @@ Consider two distinct separable solutions to the Schrödinger equation, $\Psi_1(
 \Psi_2(x,t) &= e^{-i\hbar k_2^2t/2M}(A_2 e^{ik_2x} + B_2e^{-ik_2x}),
 ```
 
-where $k_1 = \sqrt{2ME_1}/\hbar$ and $k_2 = \sqrt{2ME_2}/\hbar$, and $A_1$, $B_1$, $A_2$ and $B_2$ are arbitrary complex constants. Both of these  wavefunctions solve the Schrödinger equation separately. Now, because of the superposition principle from [](#s-superposition), we know that
+where $k_1 = \sqrt{2ME_1}/\hbar$ and $k_2 = \sqrt{2ME_2}/\hbar$, and $A_1$, $B_1$, $A_2$ and $B_2$ are arbitrary complex constants. Both of these  wavefunctions solve the Schrödinger equation separately. Now, because of the superposition principle from Sec.~\ref{s:superposition}, we know that
 ```{math}
 :label: e-superpose-2
 	\Psi'(x,t) &= \alpha \Psi_1(x,t) + \beta \Psi_2(x,t)  \\
@@ -229,7 +229,7 @@ The probability density to find the particle at position $x$ is
 which is a **normal distribution** (see figure below) with mean and standard deviation
 ```{math}
 	\langle x \rangle &= 0, \\
-\Delta x&= \sqrt{\langle x^2\rangle - \langle x \rangle^2} = a.
+\Delta x&=~\sqrt{\langle x^2\rangle - \langle x \rangle^2}~=~a.
 ``` 
 The particle is therefore localised close to the origin, and the smaller $a$ is, the smaller the standard deviation is, and hence the particle is more tightly localised. 
 	
