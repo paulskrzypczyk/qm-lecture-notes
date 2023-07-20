@@ -2,7 +2,6 @@
 subject: Quantum Mechanics I Lecture Notes
 subtitle:
 short_title: Index
-numbering: false
 ---
 
 ## Quantum Mechanics I

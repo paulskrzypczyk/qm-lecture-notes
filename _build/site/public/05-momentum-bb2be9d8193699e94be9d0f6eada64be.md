@@ -9,7 +9,7 @@ In the previous section we determined how free particles behave according to qua
 
 Much like a particle doesn't have a well-defined position, but is rather in a superposition of locations, in quantum mechanics **particles do not have well-defined momenta**, but rather have a **superposition** of momenta. We will see below that we can define **probability amplitudes** for a particle to have a momentum $p$, and that this amplitude is specified by a **momentum wavefunction**. 
 
-(s-plane-waves)=
+(e-plane-waves)=
 ### Plane waves and De Broglie
 In the previous section, we found that the  separable solutions to the Schr\"odinger equation for a free particle were given by [](#e-psik), i.e. 
 \begin{equation}
@@ -18,7 +18,7 @@ In the previous section, we found that the  separable solutions to the Schr\"odi
 where $E = \hbar^2 k^2 / 2M$ was the constant which appeared in the TISE. Our starting point will be to take a closer look at these solutions, to better understand what they represent. 
 
 
-Similarly to how it was instructive to look at the angular frequency of the temporal part of a stationary state (see [](#s-time-eq)) it will also be instructive to look at the **wavelength** of the spatial part of these wavefunctions. In particular, for the function $e^{ikx}$ we immediately see that the wavelength is $\lambda = 2\pi/k$ since
+Similarly to how it was instructive to look at the angular frequency of the temporal part of a stationary state (see [](#s-time-eq) it will also be instructive to look at the **wavelength** of the spatial part of these wavefunctions. In particular, for the function $e^{ikx}$ we immediately see that the wavelength is $\lambda = 2\pi/k$ since
 \begin{equation}
 e^{ik(x + \lambda)} = e^{i(kx + 2\pi)} = e^{ikx}
 \end{equation}
