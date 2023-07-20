@@ -249,7 +249,7 @@ We can go further by first noticing that for the operator $\hat{H}^2$ the statio
 ```
 Thus, looking at the average square total energy, $\langle H^2 \rangle$, we see that
 ```{math}
-\vph\langle H^2 \rangle &= \infint \Psi^*(x,t)\hat{H}^2\Psi(x,t) dx,  \\
+\langle H^2 \rangle &= \infint \Psi^*(x,t)\hat{H}^2\Psi(x,t) dx,  \\
 &= \infint \Psi^*(x,t)E^2\Psi(x,t) dx, \\
 &= E^2\infint |\Psi(x,t)|^2 dx, \\
 &= E^2.

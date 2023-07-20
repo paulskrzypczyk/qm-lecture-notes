@@ -73,7 +73,7 @@ According to quantum mechanics, in general, particles **do not have well-defined
 Quantum mechanics says that if at time $t = t_0$ a particle has a wavefunction $\Psi(x,t_0)$ then the **probability** to find the particle between $x = x_a$ and $x = x_b$ is 
 ```{figure} ./Pictures/Pab.svg
 :name: Pab
-:width: 400px
+:width: 500px
 :align: center
 
 **Probability.** The probability to find the particle between $x_a$ and $x_b$ is the integral of the modulus square of the wavefunction between these two values. This is the shaded area under the curve in the above figure.
@@ -150,7 +150,7 @@ In order for the statistical interpretation of the wavefunction to be possible, 
 Normalisation is not a very restrictive property, since we can **normalise** functions to turn them into valid wavefunctions. In particular, if we have some unnormalised function $\Psi(x,t_0)$ that satisfies
 ```{math}
 :label: e:sq-integrable
-\infint  |\Psi(x,t_0)|^2  dx = N, \vph
+\infint  |\Psi(x,t_0)|^2  dx = N,
 ```
 where **$N < \infty$**, that is, if this integral is **finite**, then 
 ```{math}
@@ -227,7 +227,7 @@ In order to determine how the state of a particle changes in time from some init
 ````{card}
 ```{math}
 :label: e-SE
-	i\hbar \frac{\partial\Psi}{\partial t} = -\frac{\hbar^2}{2M} \frac{\partial^2\Psi}{\partial x^2} + V(x)\Psi(x,t),\vph
+	i\hbar \frac{\partial\Psi}{\partial t} = -\frac{\hbar^2}{2M} \frac{\partial^2\Psi}{\partial x^2} + V(x)\Psi(x,t),
 ```
 ````
 	
@@ -312,7 +312,7 @@ Therefore, if we understand the behaviour of $ \frac{\partial}{\partial t}|\Psi(
 
 ```{figure} ./Pictures/current.svg
 :name: current
-:width: 400px
+:width: 500px
 :align: center
 
 **Visualising the current.** At $t_0$ the probability to find the particle between $x_0$ and $x_0 + dx$ is $P(x_0,t_0)dx$. During a time $dt$ the probability current that flows into this region from the left is $j(x_0,t_0)dt$. During the same time, a probability current $j(x_0 + dx,t_0)dt$ flows out from the right. The continuity equation says that the change in probability in the vicinity of $x_0$ during the time $dt$ must be equal to the net current flowing into that region. 
@@ -322,7 +322,7 @@ In the derivation below (which you are encouraged to work through yourself, but 
 ````{card}
 ```{math}
 :label: e-continuity-eq
-	\frac{\partial P}{\partial t} + \frac{\partial j}{\partial x} = 0,\vph
+	\frac{\partial P}{\partial t} + \frac{\partial j}{\partial x} = 0,
 ```
 ````
 where
@@ -338,12 +338,12 @@ You have encountered equations of the form [](#e-continuity-eq) before, for exam
 :class: dropdown
 By applying the product rule it is seen that
 ```{math}
-\vph\frac{\partial}{\partial t} |\Psi(x,t)|^2 &= \frac{\partial}{\partial t}\Big(\Psi^*(x,t)\Psi(x,t)\Big) \\ 
+\frac{\partial}{\partial t} |\Psi(x,t)|^2 &= \frac{\partial}{\partial t}\Big(\Psi^*(x,t)\Psi(x,t)\Big) \\ 
 &= \frac{\partial \Psi^*}{\partial t}\Psi(x,t) +\Psi^*(x,t)\frac{\partial \Psi}{\partial t}.
 ```
 The Schrödinger equation can now be used to substitute for $\partial \Psi/\partial t$, and by taking the complex conjugate, for $\partial \Psi^*/\partial t$. Namely, by taking the complex conjugate of the Schrödinger equation, we have
 ```{math}
-	\vph-i\hbar \frac{\partial\Psi^*}{\partial t} = -\frac{\hbar^2}{2M} \frac{\partial^2 \Psi^*}{\partial x^2} + V(x)\Psi^*(x,t),
+	-i\hbar \frac{\partial\Psi^*}{\partial t} = -\frac{\hbar^2}{2M} \frac{\partial^2 \Psi^*}{\partial x^2} + V(x)\Psi^*(x,t),
 ```
 Substituting both the Schrödinger equation and its conjugate, it is found that
 ```{math}
@@ -371,7 +371,7 @@ which is what we wanted to show.
 
 Returning to the problem we started with, the conservation of normalisation, we now see that, by integrating [](#e-continuity-eq),
 ```{math}
-\vph\frac{\partial}{\partial t}\infint |\Psi(x,t)|^2 dx &= -\infint \frac{\partial j}{\partial x}dx, \\
+\frac{\partial}{\partial t}\infint |\Psi(x,t)|^2 dx &= -\infint \frac{\partial j}{\partial x}dx, \\
 &= -\left[ j(x,t) \right]_{-\infty}^{\infty},  \\
 &= j(-\infty,t) - j(\infty,t).
 ```

@@ -179,7 +179,7 @@ In this case, since $\hat{X} = x$, we in fact have $\hat{f}(x) = f(x)$, which is
 ## The time-independent Schrödinger equation
 Having introduced the notion of an operator, now is the time to return to the time-independent Schrödinger equation [](#e-TISE) and take a closer look at its physical significance. The TISE is
 \begin{equation}
-\vph E u(x) = -\frac{\hbar^2}{2M}\frac{d^2u}{dx^2} + V(x)u(x).
+E u(x) = -\frac{\hbar^2}{2M}\frac{d^2u}{dx^2} + V(x)u(x).
 \end{equation}
 Recalling that for functions of a single variable, such as $u(x)$, differentiation and partial differentiation coincide, then from [](#e-p2) we see that the first term on the right-hand side can be written as
 ```{math}
@@ -249,7 +249,7 @@ We can go further by first noticing that for the operator $\hat{H}^2$ the statio
 ```
 Thus, looking at the average square total energy, $\langle H^2 \rangle$, we see that
 ```{math}
-\vph\langle H^2 \rangle &= \infint \Psi^*(x,t)\hat{H}^2\Psi(x,t) dx,  \\
+\langle H^2 \rangle &= \infint \Psi^*(x,t)\hat{H}^2\Psi(x,t) dx,  \\
 &= \infint \Psi^*(x,t)E^2\Psi(x,t) dx, \\
 &= E^2\infint |\Psi(x,t)|^2 dx, \\
 &= E^2.

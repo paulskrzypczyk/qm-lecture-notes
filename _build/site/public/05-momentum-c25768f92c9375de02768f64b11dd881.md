@@ -87,7 +87,7 @@ where we used the definition of the Dirac Delta function [](#e-delta) to arrive 
 to arrive at the third line. This shows that, after replacing everywhere $x'$ with $x$, that
 ````{card}
 \begin{equation}\label{e-psix-in-psip}
-\vph\Psi(x,t) = \frac{1}{\sqrt{2\pi\hbar}} \infint  \tilde{\Psi}(p,t) e^{ipx/\hbar}dp.
+\Psi(x,t) = \frac{1}{\sqrt{2\pi\hbar}} \infint  \tilde{\Psi}(p,t) e^{ipx/\hbar}dp.
 \end{equation}
 ````
 Thus, if the momentum wavefunction is known at a time $t_0$, then it is possible to recover the spatial wavefunction $\Psi(x,t_0)$ at that time. **Both wavefunctions are complete specifications of the state of a particle**. We say that they constitute two different **representations** of the state. 
@@ -144,7 +144,7 @@ This now **explains** why the wavepacket **spreads** in time. The particle has a
 In this exercise, we will derive the momentum wavefunction $\tilde{\Psi}(p,t)$ of a free particle at time $t$, and apply it to the Gaussian wavepacket from [](#example-gaussian-1).
 
 1. By making the substitution $k = p/\hbar$, show that expression for the wavefunction $\Psi(x,t)$ at time $t$ for a free particle, as given in [](#e-wavepacket),  can be rewritten as
-$$ \vph \Psi(x,t) = \frac{1}{\hbar\sqrt{2\pi}}\infint c(p/\hbar) e^{-i p^2 t/2M\hbar} e^{ipx/\hbar} dp. $$
+$$ \Psi(x,t) = \frac{1}{\hbar\sqrt{2\pi}}\infint c(p/\hbar) e^{-i p^2 t/2M\hbar} e^{ipx/\hbar} dp. $$
 
 2. By appealing to the relationship between $\Psi(x,t)$ and $\tilde{\Psi}(p,t)$ given in [](#e-psix-in-psip), show that the above implies that the momentum wavefunction $\tilde\Psi(p,t)$ for a free particle is 
 $$ \tilde\Psi(p,t) = \frac{1}{\sqrt{\hbar}}c(p/\hbar)e^{-ip^2t/2M\hbar}$$
