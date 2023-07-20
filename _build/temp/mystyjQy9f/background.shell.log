@@ -1,0 +1,100 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 20 November 2021, version: 4.76.
+Rule 'xelatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'background.tex'
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "background.tex"'
+------------
+Latexmk: applying rule 'xelatex'...
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex)
+ \write18 enabled.
+entering extended mode
+
+SyncTeX written on background.synctex.gz.
+Latexmk: References changed.
+Latexmk: Missing bbl file 'background.bbl' in following:
+ No file background.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'background.xdv'
+Latexmk: Examining 'background.log'
+=== TeX engine is 'XeTeX'
+Latexmk: Found bibliography file(s) [main.bib]
+Rule 'bibtex background': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'background.aux'
+------------
+Run number 1 of rule 'bibtex background'
+------------
+------------
+Running 'bibtex  "background.aux"'
+------------
+Latexmk: applying rule 'bibtex background'...
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+The top-level auxiliary file: background.aux
+The style file: abbrvnat.bst
+I found no \citation commands---while reading file background.aux
+Database file #1: main.bib
+(There was 1 error message)
+Rule 'xelatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'background.aux'
+      'background.bbl'
+      'background.out'
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "background.tex"'
+------------
+Latexmk: applying rule 'xelatex'...
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex)
+ \write18 enabled.
+entering extended mode
+
+SyncTeX written on background.synctex.gz.
+Latexmk: Found input bbl file 'background.bbl'
+Latexmk: Log file says output to 'background.xdv'
+Latexmk: Examining 'background.log'
+=== TeX engine is 'XeTeX'
+Latexmk: Found bibliography file(s) [main.bib]
+Rule 'xdvipdfmx': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'background.xdv'
+   Rule(s) that have been run and require run of dependent rule:
+      'xelatex' which requires run of 'xdvipdfmx'
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "background.pdf"  "background.xdv"'
+------------
+Latexmk: applying rule 'xdvipdfmx'...
+Error: /syntaxerror in /----nostringval----
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push   --nostringval--   --nostringval--   --nostringval--   false   1   %stopped_push   2022   1   3   %oparray_pop   2021   1   3   %oparray_pop   2009   1   3   %oparray_pop   1865   1   3   %oparray_pop   --nostringval--   %errorexec_pop   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push
+Dictionary stack:
+   --dict:776/1123(ro)(G)--   --dict:0/20(G)--   --dict:77/200(L)--
+Current allocation mode is local
+GPL Ghostscript 9.55.0: Unrecoverable error, exit code 1
+background.xdv -> background.pdf
+[1][2
+xdvipdfmx:warning: Filtering file via command -->rungs -q -dSAFER -dNOPAUSE -dBATCH -dEPSCrop -sPAPERSIZE=a0 -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dAutoFilterGrayImages=false -dGrayImageFilter=/FlateEncode -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dAutoRotatePages=/None -sOutputFile='C:/Users/phyps/AppData/Local/Temp/dvipdfm-x.79c6b6cec204a01fc96d4ca04963d796' './files/photoelectric-8f52e32fc86b631d0381c1bf2e0ba659.svg' -c quit<-- failed.
+xdvipdfmx:warning: Image format conversion for "./files/photoelectric-8f52e32fc86b631d0381c1bf2e0ba659.svg" failed...
+xdvipdfmx:fatal: pdf_link_obj(): passed invalid object.
+
+No output PDF file written.
+Collected error summary (may duplicate other messages):
+  xdvipdfmx: Command for 'xdvipdfmx' gave return code 256
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to 'background.log' for details
+Latexmk: Errors, in force_mode: so I tried finishing targets
+C:\texlive\2021\bin\win32\runscript.tlu:915: command failed with exit code 12:
+perl.exe c:\texlive\2021\texmf-dist\scripts\latexmk\latexmk.pl -f -xelatex -synctex=1 -interaction=batchmode -file-line-error -latexoption="-shell-escape" background.tex 
