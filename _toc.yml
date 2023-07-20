@@ -8,6 +8,8 @@ parts:
      - file: 03-sep-TISE
      - file: 04-free-particle
      - file: 05-momentum
+     - file: 06-operators
+     - file: 07-comm-up
   - caption: Problem Sheets
     chapters:
       - file: PS1
