@@ -10,6 +10,8 @@ parts:
      - file: 05-momentum
      - file: 06-operators
      - file: 07-comm-up
+     - file: 08-inf-square-well
+     - file: 09-inf-square-well-dyn
   - caption: Problem Sheets
     chapters:
       - file: PS1
