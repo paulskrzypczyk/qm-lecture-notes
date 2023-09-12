@@ -15,6 +15,10 @@ project:
   math:
     '\infint': '\int_{-\infty}^{\infty}'
     '\vph': '\vphantom{\Bigg|}'
+    '\rI': '\mathrm{I}'
+    '\rII': '\mathrm{II}'
+    '\rIII': '\mathrm{III}'
+
   numbering:
     heading_1: true
     heading_2: true
@@ -28,3 +32,4 @@ site:
   logo_text: Quantum Mechanics I
   nav: 
   domains: []
+

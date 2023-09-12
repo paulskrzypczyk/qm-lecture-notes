@@ -1,6 +1,6 @@
 ---
-title: "The Infinite Square Well: Dynamics"
-short_title: Inf. Sq. Well Dynamics
+title: "Chapter 9: The Infinite Square Well: Dynamics"
+short_title: "Ch. 9: Inf. Sq. Well Dynamics"
 numbering:
   enumerator: 9.%s
 ---

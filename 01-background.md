@@ -1,6 +1,6 @@
 ---
-title: History and Background 
-short_title: History & Background
+title: "Chapter 1: History and Background" 
+short_title: "Ch. 1: History & Background"
 numbering:
   enumerator: 1.%s
 ---
@@ -16,7 +16,7 @@ numbering:
 Quantum mechanics constitutes a huge departure from classical physics and completely alters the view we have of how the universe functions. In order to understand where quantum mechanics came from, and why it was necessary to replace classical physics by it, in this first section we briefly describe some of the key phenomena that arose, roughly around the turn of the last century, that classical physics was simply unable to give a satisfactory explanation of. The list here will be neither comprehensive nor in chronological order, but is meant just to provide a short account of the main difficulties faced by classical physics, for which a new physical theory was ultimately necessary. We will also discuss at the same time some of the early ideas and insights which would eventually develop into the theory that we now call quantum mechanics. The goal of this section is to set the scene and provide the a small amount of context for the following sections, where we will begin our exploration of quantum mechanics.   
 
 (s-photoelec)=
-### The photoelectric effect
+## The photoelectric effect
 A key effect that classical physics was unable to explain is the **photoelectric effect**. It is observed that if light is shone on a piece of metal, then electrons are emitted. This effect can be studied carefully by forming a capacitor out of two metal plates in vacuum, placing this in a circuit, and applying a voltage (potential difference) across the plates.  
 
 ```{figure} ./Pictures/photoelectric.svg
@@ -48,7 +48,7 @@ There are some particularly surprising aspects about what is observed:
 
 All of these aspects of the photoelectric effect seem impossible to explain within classical physics. In classical physics, the energy density of the light is proportional to the amplitude squared, and does not depend upon the wavelength. Moreover, the energy arrives at a constant rate, and so if the light is very weak, it should take a long time before enough energy is supplied in order to account for the kinetic energy of the emitted electron, so there should be a long delay before the current begins to flow. Finally, why it should be that long wavelength light is simply unable to free any electrons was a mystery.
 
-#### The photon
+### The photon
 Einstein was able to provide an explanation for the photoelectric effect by postulating that classical electromagnetism does not in fact completely describe the properties of light. He said that we need to assume moreover that light is **quantized** in small `packets' known as **photons**. Einstein postulated that a photon of wavelength $\lambda$ and frequency $f$ has energy 
 ````{card}
 ```{math}
@@ -60,10 +60,10 @@ which we will refer to as the **Einstein relation**. With this postulate, the ma
 
 This model of the photon also accounts for the two surprising aspects of the photoelectric effect. As the intensity is increased, the **number of photons** increases, accounting for the larger current. It also explains why a current is observed immediately even for very weak light -- since now the rate at which photons arrive will be very slow, but whenever a photon does arrive, it arrives with all of its energy, and there is a chance of emitting an electron. 
 
-### Atoms
+## Atoms
 Atoms also provided big challenges for classical physics, from two completely different perspectives: The observation of spectral lines, and their stability.
 
-#### Spectral lines
+### Spectral lines
 It is observed that if a gas of atoms (all of the same element) is `excited' -- for example by making an electrical spark -- then light is emitted. If this light is analysed spectroscopically, then the light is found to contain only certain very precise wavelengths, and none others. These are known as **spectral lines**. These line were moreover found to have intricate structure. For example, for Hydrogen, it was found that all the observed wavelengths fitted the formula
 \begin{equation}
 \frac{1}{\lambda} = R_H \left(\frac{1}{m^2} - \frac{1}{n^2}\right),
@@ -80,12 +80,12 @@ for integers $m$ and $n$, and where $R_H$ is a constant known as Rydberg's const
 
 In order to explain the existence of spectral lines from the perspective of classical physics, the small number of allowed frequencies of the emitted light must arise from some characteristic vibrations within the atom. But what could these characteristic vibrations be? Moreover, where does the intricate relation between the allowed wavelengths come from? Classical physics seems to provide no satisfactory answer to these questions, and therefore the existence of spectral lines was a mystery. 
 
-#### The stability of the atom
+### The stability of the atom
 A second problem concerns the stability of the atom. Once the nucleus and the electron had been discovered, one possible model for an atom was the `solar system' model, of a positively charged nucleus at the centre, around which the electron orbits. 
 
 Classical electromagnetism says however that **accelerating charges emit radiation**, and that this radiation carries away with it energy. The electron, which is undergoing circular motion, is accelerating constantly, and should therefore emit radiation and lose energy. Ultimately the electron should therefore spiral into the nucleus as it loses its energy and slows down.  Atoms in vacuum are however observed to be very stable, surviving almost indefinitely -- much longer than the timescale over which the electron should lose all its energy and spiral into the nucleus. No satisfactory way of accounting for the stability of atoms from such a classical model was ever found.   
 
-#### Quantisation of angular momentum and the Bohr atom
+### Quantisation of angular momentum and the Bohr atom
 Bohr was able to provide partial answers to both of these problems by postulating that **angular momentum of the electron is quantised**. In particular, Bohr postulated that much like the energy of a photon is quantised, so too is the angular momentum $L$ of an electron in orbit around a nucleus. Bohr postulated that an elementary **quanta** of orbital angular momentum is the **Reduced Plank constant**
 ````{card}
 ```{math}
@@ -119,7 +119,7 @@ The spectral lines are also explained by this model. When an electron `jumps' fr
 \end{equation}
 The constant out the front exactly matches the experimentally observed Rydberg constant, and thus reproduced the spectral lines of Hydrogen. In fact, this prediction of the Bohr model led to the search, and subsequent discovery of new lines outside the visible part of the electromagnetic spectrum, which had previously not been observed.
 
-### Matter waves
+## Matter waves
 Einstein postulated that electromagnetic radiation was in fact comprised of 'packets' which he called photons, which can roughly be thought of as particles. De Broglie postulated that **matter might conversely behave like a wave**. When electromagnetic radiation has energy $E$, its momentum is $p = E/c$. Using the Einstein formula for the energy of the photon, $E = hf = hc/\lambda$, we see that 
 \begin{equation}
 	p = \frac{E}{c} = \frac{hc}{\lambda c} = \frac{h}{\lambda}.\vph

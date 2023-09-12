@@ -1,6 +1,6 @@
 ---
-title: The Free Particle
-short_title: Free particle
+title: "Chapter 4: The Free Particle"
+short_title: "Ch. 4: Free particle"
 numbering:
   enumerator: 4.%s
 ---
@@ -19,7 +19,7 @@ x(t) = x_0 + \frac{p_0}{M} (t-t_0),\quad p(t) = p_0.
 ```
 That is, the momentum of the particle is **constant in time**, and the particle travels with constant momentum, and therefore constant velocity. We would like to understand now the similarities and differences that arise with this in quantum mechanics. 
 
-### Solving the Time-Independent Schrödinger Equation
+## Solving the Time-Independent Schrödinger Equation
 In the previous section, we saw that under the assumption of a separable solution, we can reduce the problem of solving the Schrödinger equation [](#e-SE), to that of solving the the TISE [](#e-TISE). We will make this assumption here, and study the consequences.
 
 In the case of a free particle, the TISE becomes
@@ -52,7 +52,7 @@ Therefore, the general solution of the TISE [](#e-TISE-free-2) is any superposit
 u(x) = B e^{ikx} + Ce^{-ikx}
 ```
 where $B$ and $C$ are arbitrary complex constants.
-```{note} Remark
+```{attention} Remark
 :class: dropdown
 Previously you may have found $\cos(kx)$ and $\sin(kx)$ to be the solutions to [](#e-TISE-free-2). Using the complex exponential solutions, instead of the trigonometric solutions is merely a matter of preference, as both are equivalent. In particular, since $\cos\theta = \frac{1}{2}(e^{i\theta} + e^{-i\theta})$ and $\sin\theta = \frac{1}{2i}(e^{i\theta} - e^{-i\theta})$, a general superposition of complex exponentials is equivalent to a general superposition of cosines and sines. As an exercise, you should confirm that this is true. 
 ```
@@ -76,9 +76,9 @@ First, as discussed in [](#s-freedom), we can specify an **arbitrary** initial s
 More worryingly, as we will see next, the solutions found don't appear to be permissible at all, due to their normalisation. We will see below that both of these problems can be overcome, by using the **superposition principle** from [](#s-superposition). 
 
 
-### Using the Superposition Principle to Find Normalised Solutions
+## Using the Superposition Principle to Find Normalised Solutions
 
-#### Separable solutions are unnormalisable for a free particle
+### Separable solutions are unnormalisable for a free particle
 Wavefunctions must be normalised in order that the probability to find the particle somewhere is one, as discussed in [](#s-normalisation). Let us therefore attempt to normalise the wavefunction [](#e-free-sep):
 ```{math}
 \vph\infint  |\Psi(x,t)|^2dx &= \infint |(A' e^{ikx} + B'e^{-ikx})|^2 dx  \\
@@ -91,7 +91,7 @@ At first sight, this appears like a major problem with the separation of variabl
 
 It is true that our assumption that the wavefunction is separable, for a free particle, is in fact inconsistent, and free particles cannot be in stationary states. However, it does not mean that the method of separation of variables is a bad one, but only that we have to **use it in a smarter way**. We must further make use of the **superposition principle** in order to turn it into a powerful technique for solving the Schrödinger equation. 
 
-#### Normalisation of superposed wavefunctions
+### Normalisation of superposed wavefunctions
 Consider two distinct separable solutions to the Schrödinger equation, $\Psi_1(x,t)$ and $\Psi_2(x,t)$, each with a corresponding constant $E_1 > 0$ and $E_2 > 0$, such that $E_1 \neq E_2$. That is, consider
 
 ```{math}
@@ -118,7 +118,7 @@ In the above example [](#e-superpose-2) it is instructive to realise that althou
 ```
 where $k = k_1$, $-k_1$, $k_2$  and $-k_2$. These all correspond to separable solutions, with $f(t)$ of the form $f(t) = e^{-i\hbar k^2 t/2M}$ and $u(x)$ of the form $u(x) = \frac{1}{\sqrt{2\pi}}e^{ikx}$. 
 
-```{note} Remark
+```{attention} Remark
 :class: dropdown
 I have introduced the constant $\frac{1}{\sqrt{2\pi}}$ in $\Psi_k(x,t)$ as it turns out to be the '**correct**' normalisation. It is much easier to introduce it at this stage, even if this appears somewhat arbitrary and unjustified, rather than to wait and fix the normalisation later. 
 ```
@@ -140,7 +140,7 @@ We can also use the insight from [](#s-cons-of-norm), that **normalisation is co
 ```
 where we introduced a new variable $k'$ for the second integration (which is just a dummy variable that we are integrating over).
 
-```{note} Remark
+```{attention} Remark
 :class: dropdown
 Note that here we have used a convention — which is common when writing down multiple integrals (here we are integrating over $x$, $k$ and $k'$) — to write the infinitesimals $dx$, $dk$ and $dk'$ **next to the integral signs**. This does not change the meaning of the integral, and we could write it with the infinitesimals at the end, e.g. $\int_{-\infty}^{\infty} ( \int_{-\infty}^{\infty} (\int_{-\infty}^{\infty} f(x,k,k') dk) dk') dx$. This modified notation is supposed to be intuitive, and is introduced as it is both simpler and more useful, since it makes is very easy to see which limits correspond to which integrals (which happen to coincide in the above example, but often do not).  
 ```
@@ -183,7 +183,7 @@ We therefore see, using [](#e-delta), that the final integral in [](#e-norm-calc
 	\infint |\Psi(x,0)|^2  dx &= \frac{1}{2\pi}\infint dk \infint dk' c^*(k')c(k) 2\pi \delta(k'-k) \\
 	&=\infint  |c(k)|^2dk.
 ```
-```{note} Remark
+```{attention} Remark
 :class: dropdown
 Note that the $\frac{1}{\sqrt{2 \pi}}$ that was introduced 'arbitrarily' into the definition of $\Psi_k(x,t)$, has ended up being squared, and has exactly cancelled the $2\pi$ which arises from the definition of the Dirac Delta function. This is the first way of seeing why this was the 'correct' normalisation. 
 ```
@@ -200,7 +200,7 @@ To summarise, a wavefunction of the form [](#e-wavepacket) is a **normalised sol
 
 We now have enough machinery in place to actually study concrete examples, in order to start building some intuition for how particles behave in quantum mechanics. 
 (s-Gaussian)=
-### Gaussian wavepackets
+## Gaussian wavepackets
 We are going to study a solution to the Schrödinger equation known as a **Gaussian wavepacket**. This is  a very special solution, whereby the particle is seen to be roughly **localised** in a **packet**, which evolves in time in a rather simple way, maintaining the same general form for all time. 
 ````{prf:example} Gaussian wavepacket
 :label: example-gaussian-1
@@ -276,7 +276,7 @@ At the same time, the wavepacket of a quantum particle is also seen to **spread*
 ````
 
 (s-arb-init-wf)=
-### Arbitrary initial wavefunction
+## Arbitrary initial wavefunction
 In the above example we specified the function $c(k)$ and then used this to determine the wavefunction at all times $\Psi(x,t)$. This fixed the wavefunction at the initial time $t = 0$ also, and hence specifying $c(k)$ can be seen to be equivalent to specifying an initial condition $\Psi(x,0)$. 
 
 What we really want to be able to do however is to specify an initial condition $\Psi(x,0)$ (i.e. a complete description of the particle at a time $t = 0$), and to determine how the wavefunction evolves in time from this initial condition. It is also possible to do this, as we now see. 

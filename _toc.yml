@@ -12,6 +12,7 @@ parts:
      - file: 07-comm-up
      - file: 08-inf-square-well
      - file: 09-inf-square-well-dyn
+     - file: 10-finite-square-well
   - caption: Problem Sheets
     chapters:
       - file: PS1

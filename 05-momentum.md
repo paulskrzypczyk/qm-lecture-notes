@@ -1,6 +1,6 @@
 ---
-title: Momentum in Quantum Mechanics
-short_title: Momentum in QM
+title: "Chapter 5: Momentum in Quantum Mechanics"
+short_title: "Ch. 5: Momentum in QM"
 numbering:
   enumerator: 5.%s
 ---
@@ -10,7 +10,7 @@ In the previous section we determined how free particles behave according to qua
 Much like a particle doesn't have a well-defined position, but is rather in a superposition of locations, in quantum mechanics **particles do not have well-defined momenta**, but rather have a **superposition** of momenta. We will see below that we can define **probability amplitudes** for a particle to have a momentum $p$, and that this amplitude is specified by a **momentum wavefunction**. 
 
 (s-plane-waves)=
-### Plane waves and De Broglie
+## Plane waves and De Broglie
 In the previous section, we found that the  separable solutions to the Schrödinger equation for a free particle were given by [](#e-psik), i.e. 
 \begin{equation}
 \Psi_k(x,t) = \frac{1}{\sqrt{2\pi}} e^{-i\hbar k^2 t/2M} e^{ikx} ,
@@ -36,13 +36,13 @@ A first indication that this is a good idea is to recall the relation between $E
 which shows that the identification of $\hbar k$ with the momentum fits together nicely with the identification of $E$ in the TISE with the energy. In particular, if $E$ is the energy, and $p$ is the momentum, this equation is precisely the equation defining the **kinetic** energy of a particle. 
 
 
-### Superpositions of momenta
+## Superpositions of momenta
 In the previous section we saw that the wavefunctions $\Psi_k(x,t)$ for a free particle are unnormalisable, and hence are inadmissible states for a particle. Now that these wavefunctions are seen to correspond to states of definite momentum, we arrive at the absolutely fundamental conclusion that **it is impossible for a particle to have a definite momentum in quantum mechanics**. 
 
 In order to get around this problem, we realised that a superposition of the states $\Psi_k(x,t)$ could in fact form a normalised wavefunction. We now see that such superpositions correspond to **superpositions of momenta**. In particular, when we introduced the superposition principle, we stressed that if the different wavefunctions being superposed have **different physical properties**, then it is natural to say that in the superposed wavefunction this **property is in superposition**. This is exactly what we are doing here, but now for the momentum of a particle. 
 
 (s-momentum-wavefunction)=
-### The momentum wavefunction
+## The momentum wavefunction
 We will now show how to go one step further, and describe the superposition of momentum **quantitatively** by introducing the idea of a **probability density** for momentum and an associated **probability amplitude**, in direct analogy to the way we defined these quantities for the position of the particle. In particular, previously we said that a particle with wavefunction $\Psi(x,t_0)$ is in a superposition of locations, with the probability amplitude at the position $x$ at time $t_0$ given by $\Psi(x,t_0)$, and the probability density given by $P(x,t_0) = |\Psi(x,t_0)|^2$. 
 
 Our goal is to determine analogous quantities for momentum, namely a **momentum wavefunction $\tilde{\Psi}(p,t_0)$** such that the probability amplitude for the particle to have momentum $p$ at time $t_0$ is $\tilde{\Psi}(p,t_0)$, and the probability density for momentum is $|\tilde{\Psi}(p,t_0)|^2$. 
@@ -61,7 +61,7 @@ If we substitute the de Broglie relation $p = \hbar k$ into this condition, taki
 \end{equation}
 This suggests that we should identify the integrand $\frac{1}{\hbar}|c(p/\hbar)|^2$ with $P(p,0)$, the **probability density for momentum** at $t = 0$. Going one step further, it also suggests that we identify $\frac{1}{\sqrt{\hbar}}c(p/\hbar)$ with $\tilde{\Psi}(p,0)$, the **momentum wavefunction** at $t = 0$, since the modulus square of this function is precisely $P(p,0)$. 
 
-Having the momentum wavefunction and probability density defined in terms of $c(p/\hbar)$ is however not fully satisfactory, and hides the final message, since ultimately we would like to have them expressed in terms of the wavefunction $\Psi(x,0)$ itself, which, after all, is a complete description of the state of the particle at $t = 0$. We can achieve this by using the relation [](#e-c from psi) from the previous section. In particular, we find
+Having the momentum wavefunction and probability density defined in terms of $c(p/\hbar)$ is however not fully satisfactory, and hides the final message, since ultimately we would like to have them expressed in terms of the wavefunction $\Psi(x,0)$ itself, which, after all, is a complete description of the state of the particle at $t = 0$. We can achieve this by using the relation [](#e-c-from-psi) from the previous section. In particular, we find
 ```{math}
 \tilde{\Psi}(p,0) =  \frac{1}{\sqrt{2\pi \hbar}}\infint  \Psi(x,0) e^{-ipx/\hbar}dx.
 ```
@@ -76,7 +76,7 @@ This is the **momentum wavefunction** of a particle. We see that at any given ti
 
 We have thus achieved a **very important goal** — we now understand, in full generality, **how momentum is specified in quantum mechanics**. 
 
-#### The momentum wavefunction as a different representation of the state
+### The momentum wavefunction as a different representation of the state
 Interestingly, **the momentum wavefunction is also a complete specification of the state of a particle**. To see this, consider, just as we did in [](#s-arb-init-wf), multiplying both sides of [](#e-psip) by $e^{ipx'/\hbar}$ and integrating over $p$, to obtain
 ```{math}
 \infint \tilde{\Psi}(p,t) e^{ipx'/\hbar}dp  &= \frac{1}{\sqrt{2\pi \hbar}}\infint dp \infint dx \Psi(x,t) e^{-ipx/\hbar}e^{ipx'/\hbar},\\
@@ -94,7 +94,7 @@ Thus, if the momentum wavefunction is known at a time $t_0$, then it is possible
 
 In many problems we are interested primarily in the position of the particle, hence the wavefunction $\Psi(x,t)$ is a more **useful** representation. If however we care more about the momentum of the particle, which happens for instance often in **scattering experiments in particle physics**, or often in **condensed matter physics**, then it is more useful to work with the momentum wavefunction $\tilde{\Psi}(p,t)$. You will see this later in your physics education. 
 
-### Gaussian wavepacket
+## Gaussian wavepacket
 We end this section by returning to our example of the Gaussian wavepacket of a free particle from [](#s-Gaussian), to look at it's momentum. 
 
 ````{prf:example} Gaussian wavepacket of a free particle

@@ -1,6 +1,6 @@
 ---
-title: Basics of Quantum Mechanics
-short_title: Basics of QM
+title: "Chapter 2: Basics of Quantum Mechanics"
+short_title: "Ch. 2: Basics of QM"
 numbering:
   enumerator: 2.%s
 ---
@@ -20,7 +20,7 @@ As the first part of the first formal course on quantum theory, this course is j
 
 The goal of this half of the course is to **introduce the basic concepts of quantum theory**, to gain some familiarity with the **picture of nature according to quantum theory**, and finally to gain practice in **solving problems** in quantum mechanics. 
 
-### The mechanics of a particle
+## The mechanics of a particle
 For the majority of this course we will consider the mechanics of a particle in one-dimension. All of the basic concepts of quantum mechanics can be introduced in this simple setting, without loss of generality. At the end of the course we will discuss the mechanics of a particle in three-dimensions, necessary for fully describing the physics of the world around us. 
 
 The basic setting of interest is that of a particle of mass $M$ and co-ordinate $x$. The particle will be acted on by a force $F(x)$ which in general will change in space, for example, a particle attached to a spring, or a particle moving vertically in a gravitational field. We will restrict our attention here to **conservative forces**, ones to which we can associate a **potential energy** $V(x)$ such that 
@@ -37,7 +37,7 @@ and the kinetic energy is
 K(t_0) = \frac{p_0^2}{2M}= \frac{1}{2}M v_0^2.\vph
 ```
 
-```{note} Remark
+```{attention} Remark
 :class: dropdown
 An alternative choice would be to specify the position $x(t_0) = x_0$ and the velocity $v(t_0) = v_0$. The reason for choosing to specify the momentum $p(t_0) = p_0$ over the velocity comes from other branches of physics, such as Electromagnetism and General Relativity, where momentum is found to play a more fundamental role than velocity. We will also see that momentum plays a fundamental role in quantum mechanics, whereas the velocity does not.
 ```
@@ -53,21 +53,21 @@ The basic problem of classical mechanics is to determine the state of the partic
 
 Solving the equation of motion, subject to the initial conditions $x(t_0) = x_0$, $p(t_0) = p_0$, provides us with solutions $x(t)$ and $p(t)$ which then completely specify the state **at all times $t$**. 
 
-```{note} Remark
+```{attention} Remark
 :class: dropdown
 Note that the more familiar form of Newton's second law, $M\frac{d^2 x(t)}{dt^2} = F(x)$, is obtained by combining these two equations together. This is not done here, as it is important to stress that the the equation of motion allows us to find the **state** of the system (i.e. both the position and the momentum) at later times, something which is not as explicit in the familiar form, which concerns only $x(t)$.
 ```
 
 Quantum theory provides a completely new description of the mechanics of a particle, which we will now begin to explore. Nevertheless, the basic structure is the same as in classical mechanics: quantum mechanics provides a **complete description** of the **state** of a system, and an **equation of motion** that must be solved in order to determine how the state changes in time. 
 
-### The wavefunction
+## The wavefunction
 In quantum mechanics, a **complete description** of the **state** of a particle **at time $t_0$** is specified by the quantum mechanical **wavefunction** $\Psi(x,t_0)$. This is the basic object of quantum mechanics. 
 
 Mathematically, it is a **complex-valued** function of space (and time), meaning that $\Psi(x,t_0)$ is of the form $\Psi(x,t_0) = \Psi_\mathrm{R}(x,t_0) + i \Psi_\mathrm{I}(x,t_0)$, where $\Psi_\mathrm{R}(x,t_0)$ and $\Psi_\mathrm{I}(x,t_0)$ are real functions, which are respectively the real and imaginary parts of the wavefunction. 
 
 Once the wavefunction is known at time $t = t_0$, it is possible to calculate all physical properties at $t_0$, such as position, momentum and kinetic energy at that time. Precisely **how** this is done for each physical property will take up a large part of this course, and will be the topic of many later sections. The simplest property, which we start with now, is the position of the particle.
 
-#### The Statistical Interpretation
+### The Statistical Interpretation
 According to quantum mechanics, in general, particles **do not have well-defined properties such as position, momentum or energy**. 
 
 Quantum mechanics says that if at time $t = t_0$ a particle has a wavefunction $\Psi(x,t_0)$ then the **probability** to find the particle between $x = x_a$ and $x = x_b$ is 
@@ -114,7 +114,7 @@ The probabilities that arise in quantum mechanics have nothing to do with **impe
 
 The probabilistic nature of quantum mechanics is arguably the **biggest departure** from classical mechanics, from which many of its counter-intuitive predictions arise.
 
-#### Probability amplitudes and superposition
+### Probability amplitudes and superposition
 With the above statistical interpretation in place, it is useful to introduce some terminology. 
 
 We will say that $\Psi(x,t_0)$ is the **probability amplitude** for the particle to be at position $x$ at time $t_0$. When there is no loss of confusion, we will also simply use **amplitude** in place of probability amplitude. Probability amplitudes are thus complex numbers, whose modulus squares are probabilities. 
@@ -122,7 +122,7 @@ We will say that $\Psi(x,t_0)$ is the **probability amplitude** for the particle
 We also say that the particle is in a **superposition** of different locations, with the probability amplitude to be at $x$ at time $t_0$ given by the value of the wavefunction $\Psi(x,t_0)$. 
 
 (s-normalisation)=
-### Normalisation
+## Normalisation
 
 ````{important} Video: _Basics of QM II_ 
 :class: dropdown
@@ -175,7 +175,7 @@ This shows that there is **freedom** in choosing how to normalise a wavefunction
 ```{exercise-end}
 ```
 (s-decay)=
-#### Behaviour at infinity
+### Behaviour at infinity
 The requirement that the wavefunction be normalised imposes constraints on the behaviour of particles at $x = \pm \infty$. Physically, the integral [](#e-norm) says that the probability to find the particle \emph{somewhere} must be one. If there is a non-zero probability to find the particle at infinity, then such a wavefunction necessarily cannot be normalised, as the area under the curve will be infinite.
 
 ```{figure} ./Pictures/norm-infty.svg
@@ -212,10 +212,10 @@ This shows that this function is potentially square integrable (it is only poten
 ```
 ````
 (s-freedom)=
-### Freedom in specifying the initial state of a particle
+## Freedom in specifying the initial state of a particle
 As we discussed briefly above, in classical mechanics we have a lot of freedom in specifying the state of the particle at some time $t_0$. In quantum mechanics, we have **even more freedom**. In general, within reason, **any normalised wavefunction $\Psi(x,t_0)$ is a valid state for a particle**. This is rather remarkable, as the wavefunction specifies a complex number at every point in space. There is thus significantly more freedom than just specifying the initial position $x_0$ and initial momentum $p_0$ in classical mechanics. Understanding this additional freedom, what it means, and how it specifies physical properties such as momentum and energy will be a large part of this course. 
 
-### The equation of motion: the Schrödinger Equation
+## The equation of motion: the Schrödinger Equation
 ````{important} Video: _Basics of QM: III_ 
 :class: dropdown
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/390b9cbe47a645aeb28aedb0fa46eda31d
@@ -238,7 +238,7 @@ The Schrödinger equation  is a complex, second-order linear partial differentia
 By solving the Schrödinger equation, given the **initial condition** $\Psi(x,t_0)$, (i.e. a complete specification of the **state** of the particle at time $t_0$), we find the state of the system for all times $t$, $\Psi(x,t)$.
 
 (s-superposition)=
-#### The Superposition Principle
+### The Superposition Principle
 Because of the fact that the Schrödinger equation is **linear**, it has an extremely important property known as the **superposition principle**: If $\Psi_1(x,t)$ and $\Psi_2(x,t)$ are both solutions of the Schrödinger equation, then 
 ```{math}
 :label: e-psiprime
@@ -287,14 +287,14 @@ In the previous subsection we also introduced the terminology of superposition f
 
 
 (s-cons-of-norm)=
-#### Conservation of normalisation 
+### Conservation of normalisation 
 ````{important} Video: _Basics of QM IV_ 
 :class: dropdown
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/3a03675476384159bcd695e2a8d389e11d
 :width: 100%
 ```
 ````
-A second important physical property of the Schrödinger equation is that **the wavefunction remains normalised in time}. That is, if $\Psi(x,t_0)$ is normalised at $t_0$, then after solving the Schrödinger equation for $\Psi(x,t)$, we also find that $\Psi(x,t)$ is normalised, for all time,
+A second important physical property of the Schrödinger equation is that **the wavefunction remains normalised in time**. That is, if $\Psi(x,t_0)$ is normalised at $t_0$, then after solving the Schrödinger equation for $\Psi(x,t)$, we also find that $\Psi(x,t)$ is normalised, for all time,
 ````{card}
 ```{math}
 :label: e-norm-t

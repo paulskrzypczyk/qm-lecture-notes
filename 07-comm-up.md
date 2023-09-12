@@ -1,6 +1,6 @@
 ---
-title: Commutation and the Uncertainty Principle
-short_title: Commutation & UP
+title: "Chapter 7: Commutation and the Uncertainty Principle"
+short_title: "Ch. 7: Commutation & UP"
 numbering:
   enumerator: 7.%s
 ---

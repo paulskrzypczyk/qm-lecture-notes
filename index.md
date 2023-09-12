@@ -18,6 +18,7 @@ numbering: false
 1. [](./07-comm-up.md)
 1. [](./08-inf-square-well.md)
 1. [](./09-inf-square-well-dyn.md)
+1. [](./10-finite-square-well.md)
 
 ## Problem Sheets
 

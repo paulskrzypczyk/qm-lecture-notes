@@ -1,6 +1,6 @@
 ---
-title: "The Infinite Square Well: Energy Eigenstates"
-short_title: Inf. Sq. Well Eigenstates
+title: "Chapter 8: The Infinite Square Well: Energy Eigenstates"
+short_title: "Ch. 8: Inf. Sq. Well Eigenstates"
 numbering:
   enumerator: 8.%s
 ---
@@ -300,7 +300,7 @@ Finally, a set of functions $f_i(x)$, for $i = 1, 2,\ldots $, forms an **orthono
 \begin{equation}
 	\langle f_i,f_j \rangle = \delta_{i,j}
 \end{equation}
-where $\delta_{ij}$ is the **Kronecker delta function}, such that
+where $\delta_{ij}$ is the **Kronecker delta function**, such that
 \begin{equation}
 	\delta_{i,j} = \begin{cases} 1 & \text{if } i = j, \\
 	0 & \text{if } i \neq j.

@@ -1,6 +1,6 @@
 ---
-title: Operators
-short_title: Operators
+title: "Chapter 6: Operators"
+short_title: "Ch. 6: Operators"
 numbering:
   enumerator: 6.%s
 ---
@@ -26,7 +26,7 @@ or more generally the average of some function of position $f(x)$,
 \end{equation}
 ````
 for example the squared position $f(x) = x^2$, or the squared distance from the average, $f(x) = (x - \langle x \rangle)^2$. 
-```{note} Remark
+```{attention} Remark
 :class: dropdown
 	Such average values are often referred to as **expectation (or expected) values**. This terminology can however be misleading. For example, it can give the impression that you 'expect' to find the particle at $\langle x \rangle$, i.e. that the expectation value is equal to the most likely value of $x$. **This is most definitely not the case in general**. In fact, the expectation value is rather fictitious, and can be a position where there is zero probability density to find the particle. One should always think about what the probability density **looks like** before asking oneself whether the average value is a meaningful quantity to calculate or not.
 ```
@@ -112,7 +112,7 @@ in which the momentum operator is **''sandwiched''** between $\Psi^*(x)$ and $\P
 
 This formula is the quantum mechanical formula for the average (or expectation value of) momentum. It is important to stress that the left-hand side is **purely statistical** — it is the average value of momentum, as calculated from the probability density $P(p)$ (which we have denoted $P(p,t_0)$ up until now, when we explicitly want to talk about the time). This represents what will be measured in an experiment. The right-hand side gives the quantum mechanical **prediction** for this average momentum, in terms of a simple function of the wavefunction.  
 
-````{note} Remark
+````{attention} Remark
 :class: dropdown
 In some places (e.g. in textbooks, or other lecture notes), you will find that once the momentum operator has been introduced, the expectation value of momentum as denoted by $\langle \hat{P} \rangle$, i.e. making explicit reference to the momentum operator $\hat{P}$. We will not use this notation here, as I think it is more important to emphasise that the average momentum is a physical quantity (which makes sense outside of the context of quantum mechanics), and to recall the quantum mechanical prediction of average momentum. The latter is equally given by the right-hand side of [](#e-av-p), in terms of the momentum operator $\hat{P}$, as well as the right-hand side of [](#e-av-mom-from-mom-wf), in terms of the momentum wavefunction $\tilde{\Psi}(p)$. These two choices for notation for expectation values occur for all physical quantities, and in all cases we will here use the notation which does not make reference to the operator.   
 ````
@@ -146,7 +146,7 @@ and hence the operator associated to $g(p)$, which we denote $\hat{g}(p)$, is
 \end{equation}
 i.e. in the function, $p$ is replaced everywhere by $-i\hbar \frac{\partial}{\partial x}$. 
 
-````{note} Remark
+````{attention} Remark
 :class: dropdown
 Strictly speaking, the above works **only** when the function $g(p)$ has a Taylor series, i.e. when it can be expanded in a power series of the form $g(p) = \sum_n a_n p^n$, in which case every $p^n$ in the series is replaced by $\hat{P}^n$ to obtain $\hat{g}(p)$. Any function we will meet in this course will have this form. You will learn in Quantum Mechanics II much more about operators, and that will allow you to furthermore understand how to associate operators to functions more generally.
 ````
@@ -276,7 +276,7 @@ We introduced the notion of an operator above in order to calculate average valu
 
 The wavefunction $\Psi(x,t_0)$ is a complete specification of the physical state of a particle at time $t_0$. However, just knowing this isn't yet very satisfactory, since one would like to know what form $\Psi(x,t_0)$ has in order to have some physical property. We now have the ability to answer this question: **the eigenfunctions of an operator associated to a physical property correspond to states where that property is well defined/definite**. 
 
-It is easiest to illustrate this with examples. First, in section \ref{e-stationary definite energy} we saw that the eigenfunctions of the Hamiltonian operator are wavefunctions which have definite energy $E$. Thus, if $\Psi(x,t_0) = u(x)$, an eigenfunction of the Hamiltonian operator with eigenvalue $E$, then the particle has definite energy equal to $E$. 
+It is easiest to illustrate this with examples. First, in [](#s-stationary-definite-energy) we saw that the eigenfunctions of the Hamiltonian operator are wavefunctions which have definite energy $E$. Thus, if $\Psi(x,t_0) = u(x)$, an eigenfunction of the Hamiltonian operator with eigenvalue $E$, then the particle has definite energy equal to $E$. 
 
 Consider now the momentum operator $\hat{P}$. We can consider the **momentum eigenvalue equation**
 \begin{equation}
@@ -290,7 +290,7 @@ This equation is readily solved by inspection, the solutions are
 \begin{equation}\label{e-momentum-eig}
 v(x) = Ae^{ip_0x/\hbar}.
 \end{equation}
-This is  precisely as to be expected, given Sec. \ref{e-plane waves}. In particular, we saw that de Broglie told us that wavefunctions with definitive wavelengths $\lambda$ — i.e. plane waves, correspond to states of definite momentum $p = h/\lambda$. We have just  arrived at the same result in a completely independent manner. 
+This is  precisely as to be expected, given [](#s-plane-waves). In particular, we saw that de Broglie told us that wavefunctions with definitive wavelengths $\lambda$ — i.e. plane waves, correspond to states of definite momentum $p = h/\lambda$. We have just  arrived at the same result in a completely independent manner. 
 
 What is important is that this is **fully general**: although for momentum we already had some understanding of what form a wavefunction $\Psi(x)$ needed to have in order to have definite momentum, for other physical quantities, such as energy, this is no longer true. We now see how to answer this question, by solving the corresponding eigenvalue equation. 
 
