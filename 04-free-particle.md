@@ -246,10 +246,10 @@ where
 :label: e-gamma
 	\gamma = \frac{\hbar}{2 M a^2}.
 ```
-Although this formula looks much more complicated, the wavefunction looks very similar in form at later times:
-```{image} ./Pictures/gaussian-x-t-phase
+Although this formula looks much more complicated, the wavefunction looks very similar in form at all times:
+```{image} ./Pictures/Gaussian-wavepacket.gif
 :alt: 
-:width: 500px
+:width: 600px
 :align: center
 ```
 	

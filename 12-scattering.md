@@ -293,16 +293,15 @@ The only differences compared to [](#e-gaussian-c(k)) are that we centre the Gau
 \end{equation}
 corresponding to a Gaussian with centre at $\langle x \rangle = x_0$ and average momentum $\langle p \rangle = \hbar k_\mathrm{av} = p_\mathrm{av}$. 
 
-To find the evolution in time, we can numerically evaluate [](#e-evolve-packet), for a variety of times, restricting the range of integration to where the Gaussian $c(k)$ is non-zero, which is around the value of $k_0$. In [](#scattering-gaussian) we plot the result for 6 different times, encompassing the wavepacket approaching the step, and being partially reflected by it. We see that the final state of the particle is a **superposition of two wavepackets** — a reflected wavepacket and a transmitted wavepacket. 
+To find the evolution in time, we can numerically evaluate [](#e-evolve-packet), for a range of times, restricting the range of integration to where the Gaussian $c(k)$ is non-zero, which is around the value of $k_0$. In [](#scattering-gaussian) we plot an animation of the result, encompassing the wavepacket approaching the step, and being partially reflected by it. We see that the final state of the particle is a **superposition of two wavepackets** — a reflected wavepacket and a transmitted wavepacket. 
 
-```{figure} ./Pictures/scattering-gaussian.svg
+```{figure} ./Pictures/finite-step-scattering.gif
 :name: scattering-gaussian
 :width: 600px
 :align: center
 
-**Scattering of a Gaussian wavepacket by a potential step.**  \label{f:scattering gaussian} A plot of the scattering of a Gaussian wavepacket by a step potential. On the left plot the wavefunction $\Psi(x,t)$ using a colour plot, for various times $t$. On the right, we plot the associated probability density $|\Psi(x,t)|^2$. The potential step is also plotted, for illustrative purposes. The particle approaches the step from the left, with positive momentum, and energy larger than the potential height $V_0$. Nevertheless, the particle is partially reflected by the step, such that the final state of the particle is a superposition of a left-moving packet after the step, and a right-moving packet that has been reflected by the step.
+**Scattering of a Gaussian wavepacket by a potential step.**  An animation of the scattering of a Gaussian wavepacket by a step potential. In the top plot, we show the wavefunction $|\Psi(x,t)|$ using a colour plot. In the bottom plot, we show the associated probability density $|\Psi(x,t)|^2$. The potential step is also plotted, for illustrative purposes. The particle approaches the step from the left, with positive momentum, and energy larger than the potential height $V_0$. Nevertheless, the particle is partially reflected by the step, such that the final state of the particle is a superposition of a left-moving packet after the step, and a right-moving packet that has been reflected by the step.
 ```
-
 ````
 
 ## Finite square well
@@ -359,12 +358,12 @@ Thus, if the particle has more energy then the well, i.e. $E>V_0$, so that it is
 
 Finally, we can also consider the dynamics of wavepackets, just as we did in [](#s-scattering-wavepackets). Considering the same Gaussian wavepacket from [](#example-gaussian-scattering), we plot the evolution in [](#gaussian-well-scattering). 
 
-````{figure} ./Pictures/scattering-gaussian-finite-well.png
+````{figure} ./Pictures/finite-well-scattering.gif
 :name: gaussian-well-scattering
 :width: 600px
 :align: center
 
-**Scattering of a Gaussian wavepacket by a potential well.**  A plot of the scattering of a Gaussian wavepacket by the finite square well. On the left we plot the wavefunction $\Psi(x,t)$ using a colour plot, for various times $t$. On the right, we plot the associated probability density $|\Psi(x,t)|^2$. The potential well is also plotted, for illustrative purposes. The particle approaches the well from the left, with positive momentum, and energy larger than well depth $V_0$. The particle is partially reflected by the left-hand wall, with part of the wavepacket entering, and part reflecting. The part which is transmitted then rapidly approaches the right-hand wall, where it is again partially reflected and partially transmitted. The part which is reflected then approaches the left-hand wall, where it can again be partially reflected and transmitted. At late times, the particle will be found outside the well, either travelling to the right or to the left, and with a spread-out form, accounting for the possibility of multiple reflections inside the well before finally escaping. 
+**Scattering of a Gaussian wavepacket by a potential well.**  A plot of the scattering of a Gaussian wavepacket by the finite square well. In the top animation we plot the wavefunction $\Psi(x,t)$ using a colour plot. In the bottom animation, we plot the associated probability density $|\Psi(x,t)|^2$. The potential well is also plotted, for illustrative purposes. The particle approaches the well from the left, with positive momentum, and energy larger than well depth $V_0$. The particle is partially reflected by the left-hand wall, with part of the wavepacket entering, and part reflecting. The part which is transmitted then rapidly approaches the right-hand wall, where it is again partially reflected and partially transmitted. The part which is reflected then approaches the left-hand wall, where it can again be partially reflected and transmitted. At late times, the particle will be found outside the well, either travelling to the right or to the left, and with a spread-out form, accounting for the possibility of multiple reflections inside the well before finally escaping. 
 ````
 
 The new features we observe now compared to before, is that the particle will now repeatedly be transmitted and reflected by each wall of the well, leading to a much more intricate and complicated form at later times. Nevertheless, the general behaviour is as expected, even though we have the special energies which are perfectly transmitted by the well. 

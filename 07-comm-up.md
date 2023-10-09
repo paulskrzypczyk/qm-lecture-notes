@@ -31,7 +31,7 @@ where we have used the product rule for differentiation to obtain the two terms.
 
 The two resulting functions are clearly different from each other, and hence applying the operators in the two different orders is not equivalent. 
 
-Whenever this happens, we say that the operators **do not commute**. If on the other hand it would have been the case that the two different orders lead to the \emph{same} final function, then we would have said that the operators **commute**. 
+Whenever this happens, we say that the operators **do not commute**. If on the other hand it would have been the case that the two different orders lead to the *same* final function, then we would have said that the operators **commute**. 
 
 It is useful to consider the **difference** between the two orders. That is, it is useful to look at
 \begin{equation}

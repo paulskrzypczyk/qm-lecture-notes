@@ -19,6 +19,9 @@ project:
     '\rII': '\mathrm{II}'
     '\rIII': '\mathrm{III}'
 
+  abbreviations:
+    TISE: Time-independent Schrödinger Equation
+
   numbering:
     heading_1: true
     heading_2: true
