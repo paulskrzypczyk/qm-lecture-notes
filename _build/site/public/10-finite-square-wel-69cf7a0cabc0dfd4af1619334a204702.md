@@ -10,7 +10,6 @@ numbering:
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/b4d75aac912242ada2a53020a56c64981d
 :width: 100%
 ```
-````
 
 In the previous two sections we studied a particle confined in an infinite square well potential. This is a highly idealised well, which does not occur in real life. The merit of studying it, however, is that it is relatively simple to analyse, and allowed us to see how discrete energy levels arises. It however missed some crucial general aspects of quantum mechanics.
 
@@ -165,7 +164,6 @@ Only those values of $k$ that satisfy this equation are allowed values of $k$: f
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/e86ff73822324179a9a00bf5eea2f2c41d
 :width: 100%
 ```
-````
 
 Unfortunately it is not possible to solve analytically [](#e-quantisation-finite-well) for the allowed values of $k$. This type of equation is known as a **transcendental equation**, and is known not to admit closed form expressions for the solutions. However, this definitely doesn't mean we should stop here, it just means we have to change our expectations for what we can learn. There are now essentially two ways to proceed: the first is to numerically solve [](#e-quantisation-finite-well), after fixing specific values for $a$, $m$ and $V_0$; the second is to look at the solutions **graphically** to obtain a **qualitative** understanding of the solutions. In practice, both methods are often useful in combination. Here we will focus on the latter, since for our purposes all we really want to do is to understand qualitatively the allowed energies, and how they relate to the allowed energies of the infinite square well.
 
@@ -204,14 +202,6 @@ What can we say about the values of $k_n$? By being careful, we will see that we
 - However, for the higher levels, where the pink curve is not close to zero, the intersection points are different. This means that the energy levels close to the top of the potential barrier differ significantly more than the low lying energy levels.
 
 ### Comparing the eigenstates with those of the infinite square well
-
-````{important} Video: _Finite Square Well III_ 
-:class: dropdown
-```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/88a3dffdb68f4d419ea157e5cad6bd761d
-:width: 100%
-```
-````
-
 Having solved for the allowed energy eigenvalues, it is useful to return to the energy eigenstates $u_n(x)$, and to see what they look like. Before doing so, we should put everything together from [](#s-continuity-I-II) and [](#s-continuity-II-III), in order to write down a final expression for $u_n(x)$. Collecting everything, the final expression is
 \begin{equation}
 u_n(x) = \begin{cases}

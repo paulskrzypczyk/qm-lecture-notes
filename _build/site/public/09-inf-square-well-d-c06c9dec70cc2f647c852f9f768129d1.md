@@ -10,7 +10,6 @@ numbering:
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/78ac713d0e2c488e8b38581055152d211d
 :width: 100%
 ```
-````
 
 In the previous section we started our exploration of the infinite square well potential. We found the energy eigenstates of the well, which are the stationary states, and explored some of their properties, which hold for arbitrary potential wells.
 

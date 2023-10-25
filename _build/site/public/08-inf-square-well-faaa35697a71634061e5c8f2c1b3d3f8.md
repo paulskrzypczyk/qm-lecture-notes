@@ -10,7 +10,6 @@ numbering:
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/bf99c49077384842acaba708f3e4bcec1d
 :width: 100%
 ```
-````
 
 In this section we now move onto how quantum mechanics describes the behaviour of particles that are acted on by forces. Previously in [](./04-free-particle.md) we analysed the case of a free particle – one where there are no forces acting. Now we would like to begin our study of situations with a non-vanishing potential energy term $V(x)$ in the Schrödinger equation, signifying that there are external forces acting on the particle.
 
@@ -120,7 +119,6 @@ This models a situation where a particle is confined to the region $0 \leq x \le
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/337f43d8981e4c2186c174e62e3bfa771d
 :width: 100%
 ```
-````
 
 Our first goal is to solve the time-independent Schrödinger equation to find the stationary states of infinite square well – i.e. the energy eigenstates. 
 
@@ -184,7 +182,6 @@ u_\mathrm{II}(x) = D \sin \frac{n\pi x}{a}.
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/58e8fdd49be74825b8b556fd9bfd77d11d
 :width: 100%
 ```
-````
 
 In the above we have just seen one of the most important and iconic aspects of quantum mechanics, namely **quantisation** or **discrete energy levels**.
 
@@ -270,7 +267,6 @@ The first few energy eigenstates are depicted in [](#f-inf-sq-well-states). Note
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/af5ea8466ab44161a518dace8e6360c81d
 :width: 100%
 ```
-````
 
 We will now outline some of the important properties of energy eigenstates. **All of the properties we discuss below are true for the energy eigenstates of any potential well $V(x)$**, and not just the infinite square well.  That is, although we are highlighting them here, in the context of the infinite square well, everything below is generic, and we will come back to these properties later in the course when we study other potential wells.  
 
@@ -393,7 +389,6 @@ Completeness is in many respects **rather natural**: As we will discuss further 
 ```{iframe} https://mediasite.bris.ac.uk/Mediasite/Play/bdb8110ce3b3478287c3ee11b5263ff51d
 :width: 100%
 ```
-````
 
 Given that every wavefunction can be expressed as a superposition of energy eigenstates, it is also important to be able to determine the coefficients $c_n$ for a given wavefunction $\Psi(x)$. In order to do this we assume that the wavefunction $\Psi(x)$ can be written as in [](#e-superposition-energy), and consider multiplying both sides by $u_m^*(x)$ and integrating over $x$, to obtain
 ```{math}
