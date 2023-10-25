@@ -264,7 +264,7 @@ where $A_n$ is the normalisation constant, which ensures that the total probabil
 
 These polynomials are known as the **Hermite polynomials** and were in fact discovered long before quantum mechanics. You can find a complete treatment of Hermite polynomials in almost all textbooks on quantum mechanics, and in almost all textbooks on mathematical methods for physicists. As far as this course is concerned, it is useful for you to know that these polynomials have a name, so that you recognise them when you see them in other contexts, however we will not delve further into their properties. 
 
-In [](#t-Hermite) we list the first few Hermite polynomials for reference, and the associated wavefunctions.
+In Table [](#t-Hermite) we list the first few Hermite polynomials for reference, and the associated wavefunctions.
 
 ````{list-table} **Hermite polynomials and normalised energy eigenstates of the harmonic oscillator**. We give here the first 4 Hermite polynomials, and the corresponding normalised wavefunctions of the energy eigenstates of the quantum harmonic oscillator.
 :header-rows: 1
