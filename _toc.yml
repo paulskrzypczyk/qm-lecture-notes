@@ -17,4 +17,5 @@ parts:
      - file: 12-scattering
   - caption: Problem Sheets
     chapters:
-      - file: PS1
+      - file: PS7
+      - file: PS8
