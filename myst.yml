@@ -18,21 +18,19 @@ project:
     '\rI': '\mathrm{I}'
     '\rII': '\mathrm{II}'
     '\rIII': '\mathrm{III}'
-
   abbreviations:
     TISE: Time-independent Schrödinger Equation
-
   numbering:
     heading_1: true
     heading_2: true
     heading_3: true
     heading_4: true
-
 site: 
   template: book-theme
   title: Quantum Mechanics I
-  logo: ./Pictures/logo.png
-  logo_text: Quantum Mechanics I
+  options:
+    logo: ./Pictures/logo.png
+    logo_text: Quantum Mechanics I
   nav: 
   domains: []
 
