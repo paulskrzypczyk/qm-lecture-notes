@@ -20,3 +20,4 @@ parts:
       - file: PS7
       - file: PS8
       - file: PS9
+      - file: PS10
