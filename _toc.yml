@@ -22,3 +22,4 @@ parts:
       - file: PS9
       - file: PS10
       - file: PS11
+      - file: PS12
